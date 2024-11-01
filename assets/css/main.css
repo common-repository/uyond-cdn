@@ -1,0 +1,147 @@
+.uyond-bold {
+  font-weight: bold;
+}
+
+.uyond-status-start {
+  color: white;
+  background-color: green;
+  padding: 0em 1em 0.1em 1em;
+  margin-left: 10px;
+  border-radius: 20px;
+  font-size: 1.2rem;
+}
+
+.uyond-status-table {
+  border: 1px solid black;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+.uyond-status-table td {
+  padding-right: 1em;
+  border-right: 1px solid black;
+  padding-left: 0.5em;
+  border-bottom: 1px solid grey;
+}
+.uyond-status-table th {
+  text-align: left;
+  border-right: 1px solid black;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  border-bottom: 1px solid black;
+}
+
+.uyond-span-reduced {
+  color: green;
+  font-weight: bold;
+}
+
+td.uyond-status-fetched {
+  background-color: green;
+  color: white;
+}
+
+td.uyond-status-size,
+td.uyond-status-diff {
+  text-align: right;
+}
+
+.uyond-setup-div {
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  background-color: white;
+  padding: 3rem 1rem;
+  margin-top: 8rem;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.uyond-setup-div h1 {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.uyond-setup-div p {
+  font-size: 1rem;
+}
+
+.uyond-setup-div table {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+
+.uyond-setup-div table td {
+  text-align: left;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+}
+
+.uyond-setup-div input[type="submit"] {
+  font-size: 1.2rem;
+  padding: 0rem 1rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+.uyond-setup-div hr {
+  width: 40%;
+  margin-top: 1.5rem;
+}
+
+.uyond-setup-div .notice {
+  display: none;
+}
+
+.uyond-settings-div .reg {
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  width: 300px;
+  margin-bottom: 1rem;
+}
+
+.uyond-title {
+  color: green;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.uyond-status-div h1 {
+  margin-bottom: 1rem;
+}
+
+.uyond-setting-page-title {
+  display: flex;
+  background-color: white;
+  margin-left: -20px;
+  padding-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.uyond-setting-page-title a {
+  margin-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 1rem;
+  color: #666;
+  text-decoration: none;
+}
+
+.uyond-setting-page-title .tab-active {
+  border-bottom: 2px solid red;
+}
+
+.uyond-setting-banner {
+  width: 250px;
+  margin-top: 20px;
+}
+
+p.uyond-h1-title {
+  font-size: 24px;
+}
+
+.uyond-notes {
+  font-size: 0.6rem !important;
+}
